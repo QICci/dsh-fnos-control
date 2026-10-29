@@ -11,8 +11,7 @@
 
 ## 在线页面
 
-官网通过 GitHub Pages 从 `docs/` 目录发布：**https://qicci.github.io/dsh-fnos-control/**
-（`site/index.html` 与 `docs/index.html` 是同一个文件，`docs/` 是 GitHub Pages 要求的路径。）
+官网发布在 **https://dsh.likkas.cn/**。
 
 ## 为什么需要它
 

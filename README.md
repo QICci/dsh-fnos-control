@@ -11,8 +11,7 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin for
 
 ## Live site
 
-The project page is published from `docs/` on GitHub Pages: **https://qicci.github.io/dsh-fnos-control/**
-(`site/index.html` and `docs/index.html` are the same file; `docs/` is the path GitHub Pages serves.)
+The project page is published at **https://dsh.likkas.cn/**.
 
 ## Why this plugin exists
 

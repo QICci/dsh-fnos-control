@@ -21,8 +21,7 @@
     "CHANGELOG.md",
     "LICENSE",
     "site/index.html",
-    "scripts/smoke.mjs",
-    "docs/index.html"
+    "scripts/smoke.mjs"
   ],
   "icon": "icon.svg",
   "dsh": {
@@ -43,7 +42,7 @@
   },
   "license": "MIT",
   "author": "Likka",
-  "homepage": "https://github.com/QICci/dsh-fnos-control",
+  "homepage": "https://dsh.likkas.cn/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QICci/dsh-fnos-control.git"
