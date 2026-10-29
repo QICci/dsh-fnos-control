@@ -27,9 +27,10 @@ POST /app/fn-deepseek-harness/__fnos-gateway/control/web/restart
 
 ## 直接下载
 
-构建好的压缩包托管在 `cloud.likkas.cn`；官网（`site/index.html`）用「滑动解锁」的控件放出下载，
-手滑点一下不会真的开始传输。发布文件为 `dsh-fnos-control-0.1.0.tgz`
-（SHA-256 `2cb26a3b0d21b5815af3bdde8d68dcf26616374b584a5c00c442e4105f175cf5`）。
+构建好的压缩包附在 [v0.1.0 Release](https://github.com/QICci/dsh-fnos-control/releases/tag/v0.1.0) 里；
+官网（`site/index.html`）用「滑动解锁」的控件放出下载，手滑点一下不会真的开始传输。
+发布文件为 `dsh-fnos-control-0.1.0.tgz`
+（SHA-256 `ebd31664752bba3139e12c02e5d31283ac7ce3d31cae87b71912958f20d7fb2a`）。
 装之前可以先跑 `node package/scripts/smoke.mjs` 验证下载是否完整。
 
 ## 环境要求

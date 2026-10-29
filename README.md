@@ -27,9 +27,10 @@ POST /app/fn-deepseek-harness/__fnos-gateway/control/web/restart
 
 ## Direct download
 
-A built tarball is hosted at `cloud.likkas.cn`; the project site (`site/index.html`) exposes it behind a
-slide-to-download control so a stray click never starts a transfer. The published file is
-`dsh-fnos-control-0.1.0.tgz` (SHA-256 `2cb26a3b0d21b5815af3bdde8d68dcf26616374b584a5c00c442e4105f175cf5`).
+A built tarball is attached to [release v0.1.0](https://github.com/QICci/dsh-fnos-control/releases/tag/v0.1.0);
+the project site (`site/index.html`) exposes it behind a slide-to-download control so a stray click never
+starts a transfer. The published file is `dsh-fnos-control-0.1.0.tgz`
+(SHA-256 `ebd31664752bba3139e12c02e5d31283ac7ce3d31cae87b71912958f20d7fb2a`).
 Verify a download with `node package/scripts/smoke.mjs` before installing.
 
 ## Requirements
