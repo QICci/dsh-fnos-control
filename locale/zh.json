@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "飞牛服务控制",
+    "description": "左侧栏入口：刷新 DSH Web 页面，或通过飞牛应用网关重启被托管的 DSH Web 进程。"
+  }
+}

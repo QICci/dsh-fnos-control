@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+*.tgz
+
+# logs and caches
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.cache/
+.npm/
+
+# editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# local backups
+*.bak
+*.bak-*

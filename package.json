@@ -1,0 +1,71 @@
+{
+  "name": "dsh-fnos-control",
+  "version": "0.1.0",
+  "private": false,
+  "description": "DSH plugin: a sidebar entry that refreshes the DSH Web page or restarts the fnOS-managed DSH Web process.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "site/index.html",
+    "scripts/smoke.mjs"
+  ],
+  "icon": "icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    },
+    "compatibility": {
+      "dsh": ">=0.2.1-rc.2",
+      "dshReleases": {
+        "0.2.1-rc.3": "compatible"
+      }
+    }
+  },
+  "license": "MIT",
+  "author": "Likka",
+  "homepage": "https://github.com/QICci/dsh-fnos-control",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QICci/dsh-fnos-control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QICci/dsh-fnos-control/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "fnos",
+    "feiniu",
+    "飞牛",
+    "restart",
+    "refresh",
+    "sidebar"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "scripts": {
+    "test": "node scripts/smoke.mjs"
+  }
+}

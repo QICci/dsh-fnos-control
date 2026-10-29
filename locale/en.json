@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "fnOS Service Control",
+    "description": "Sidebar entry that reloads the DSH Web page or restarts the supervised DSH Web process through the fnOS application gateway."
+  }
+}
