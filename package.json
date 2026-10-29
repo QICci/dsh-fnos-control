@@ -21,7 +21,8 @@
     "CHANGELOG.md",
     "LICENSE",
     "site/index.html",
-    "scripts/smoke.mjs"
+    "scripts/smoke.mjs",
+    "docs/index.html"
   ],
   "icon": "icon.svg",
   "dsh": {

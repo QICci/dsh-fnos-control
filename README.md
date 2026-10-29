@@ -9,6 +9,11 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin for
 | **Reload page** | `location.reload()` — the same thing as the app's `F5` / `Ctrl+R`. The process is untouched. |
 | **Restart DSH Web** | Asks the fnOS gateway to stop and start the supervised `dsh web` child process, then waits for recovery and reloads the page. |
 
+## Live site
+
+The project page is published from `docs/` on GitHub Pages: **https://qicci.github.io/dsh-fnos-control/**
+(`site/index.html` and `docs/index.html` are the same file; `docs/` is the path GitHub Pages serves.)
+
 ## Why this plugin exists
 
 The fnOS application (`fn-deepseek-harness`) runs `dsh web` as a child of its gateway (`gateway-proxy.mjs`). The gateway already publishes a control API on its unix socket:

@@ -9,6 +9,11 @@
 | **刷新页面** | `location.reload()`，和飞牛 App 自带的 `F5` / `Ctrl+R` 完全一样，不碰进程。 |
 | **重启 DSH Web** | 请求飞牛网关停掉再拉起被托管的 `dsh web` 子进程，等恢复后自动刷新页面。 |
 
+## 在线页面
+
+官网通过 GitHub Pages 从 `docs/` 目录发布：**https://qicci.github.io/dsh-fnos-control/**
+（`site/index.html` 与 `docs/index.html` 是同一个文件，`docs/` 是 GitHub Pages 要求的路径。）
+
 ## 为什么需要它
 
 飞牛应用（`fn-deepseek-harness`）把 `dsh web` 当子进程托管在网关（`gateway-proxy.mjs`）下面。网关本身已经发布了控制接口：
